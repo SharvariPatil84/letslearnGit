@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+about1234
+{% endblock %}
+{% block content %}
+<link rel="stylesheet" href= "{% static '/blogs.css'%}">
+
+{% for blog in blogs %}
+    <h3>{{blog.title}}</h3>
+    <p>{{blog.desc}}</p>
+{% endfor %}
+
+
+{% endblock %}

@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{%block title%}
+hOME OF HEALTHlIFE
+{%endblock%}
+<!-- 
+{%url 'www.google.com'%} -->
+<!--  options fo page like booking etc -->
+
+{% block content %}
+<link rel="stylesheet" href="{% static '/home.css' %}">
+<!--<div class="container-fluid  bg-light">
+    <div class="row">
+        <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="{%static 'img/background.jpg'%}" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    content.</p>
+            </div>
+        </div>-->
+        <p>
+            <ul>
+                <li>
+                    Provides a platform where patients will be able to take benefit of E-medicare facilities where everyone have
+                    acces to order any health related accessories.
+                    Provide a interface between user and doctor by using feature of post.
+                    E-prescription feature which allows doctors to generate and send prescriptions .</li>
+            
+            
+                <li>
+                    Our best doctors are working 24/7 to provide you with best facilities. Great doctor if you need your family
+                    member to get effective immediate assistance, emergency treatment or a simple consultation.</li>
+            </ul>
+            </p>
+            <br>
+            <br>
+
+       <!-- <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="{%static 'img/img6.jpg'%}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Online Care</h5>
+                <p class="card-text">e-visit is a way of obtaining medical care for problems which do not require a physical
+                    examination and which do not require treatment beyond a prescription available online or diagnostic tests
+                    beyond blood tests</p>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="%static 'img/img7.jpg'%}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Virtual Visit</h5>
+                <p class="card-text">virtual visits” that take place between patients and clinicians via communications
+                    technology — the video and audio connectivity that allows “virtual” meetings to occur in real time, from
+                    virtually any location</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="{%static 'img/img9.jpg'%}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>-->
+
+
+
+<div class="card-group">
+    <div class="card">
+      <img src="{%static 'img/img6.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Online Care</h5>
+        <p class="card-text">e-visit is a way of obtaining medical care for problems which do not require a physical
+            examination and which do not require treatment beyond a prescription available online or diagnostic tests
+            beyond blood tests.</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{%static 'img/img7.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Virtual Visit</h5>
+        <p class="card-text">virtual visits” that take place between patients and clinicians via communications
+            technology — the video and audio connectivity that allows “virtual” meetings to occur in real time, from
+            virtually any location</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{%static 'img/img9.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+  </div> 
+
+
+
+{%endblock%}
